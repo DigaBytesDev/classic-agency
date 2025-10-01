@@ -1,0 +1,31 @@
+.exposition {
+  &__features {
+    gap: 1.5rem;
+  }
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  min-width: 300px;
+  max-width: 360px;
+  min-height: 200px;
+  background-color: $card-background-color;
+  padding: 0.625rem;
+
+  .icon-placeholder {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .exposition {
+    &__features {
+      gap: 1rem;
+    }
+  }
+}

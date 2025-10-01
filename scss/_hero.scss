@@ -1,0 +1,25 @@
+.hero {
+  padding: 0;
+  padding-bottom: 5rem;
+
+  &__content {
+    padding-top: 0.625rem;
+    gap: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    padding: 10rem 7.5rem;
+
+    &__container {
+      flex-direction: row-reverse;
+    }
+
+    &__content {
+      padding-top: 0;
+      text-align: left;
+    }
+  }
+}
