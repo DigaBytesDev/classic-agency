@@ -254,6 +254,28 @@ section {
   padding: 1.5rem;
 }
 
+.results__testimonials {
+  gap: 1.5rem;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.25rem 0.625rem;
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 200px;
+}
+.testimonial-card hr {
+  width: 100%;
+}
+.testimonial-card .client-name {
+  font-weight: 700;
+}
+
 .form {
   display: flex;
   flex-direction: column;
