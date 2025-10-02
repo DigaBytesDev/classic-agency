@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   max-width: 1120px;
-  border: 1px dashed black;
+  // border: 1px dashed black;
 
   // &--horizontal { // POSSIBLY NOT NEEDED IN MOBILE VIEW
   //   gap: 0; // FOR MOBILE
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px dashed blue;
+  // border: 1px dashed blue;
 
   &--vertical {
     flex-direction: column;
@@ -41,7 +41,7 @@
 }
 
 .button-container {
-  border: 1px dashed blue;
+  // border: 1px dashed blue;
   width: 100%;
   display: flex;
   flex-direction: column;

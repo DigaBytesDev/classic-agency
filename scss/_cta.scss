@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 240px;
+  padding: 0.625rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+@media screen and (min-width: 1000px) {
+  .cta {
+    &__container {
+      gap: 1.5rem;
+    }
+  }
+
+  .form {
+    flex-direction: row;
+  }
+
+  .input {
+    text-align: left;
+  }
+}
