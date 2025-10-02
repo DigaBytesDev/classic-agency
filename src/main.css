@@ -162,6 +162,12 @@ section {
   height: 240px;
 }
 
+.icon-placeholder {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
 @media screen and (min-width: 1000px) {
   .image-placeholder {
     height: 350px;
@@ -220,11 +226,6 @@ section {
   background-color: #e0e0e0;
   padding: 0.625rem;
 }
-.feature-card .icon-placeholder {
-  background-color: white;
-  width: 40px;
-  height: 40px;
-}
 
 @media screen and (min-width: 1000px) {
   .exposition__features {
@@ -236,4 +237,23 @@ section {
   .exposition-stat:nth-child(2) h2 {
     font-size: 2rem;
   }
+}
+.process__list {
+  gap: 1rem;
+}
+.process-btn {
+  margin: auto;
+}
+
+.step-card {
+  background-color: #e0e0e0;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1.5rem;
 }

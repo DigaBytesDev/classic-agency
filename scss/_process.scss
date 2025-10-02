@@ -1,0 +1,22 @@
+.process {
+  &__list {
+    gap: 1rem;
+  }
+
+  &-btn {
+    margin: auto;
+  }
+}
+
+.step-card {
+  background-color: $step-card-background-color;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}

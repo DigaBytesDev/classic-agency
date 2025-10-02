@@ -35,7 +35,9 @@ $secondary-button-border: $cc-primary;
 $button-radius: 0.5rem;
 
 // CARD SETTINGS
-$card-background-color: #e0e0e0;
+$temp-card-background-color: #e0e0e0;
+$feature-card-background-color: $temp-card-background-color;
+$step-card-background-color: $temp-card-background-color;
 
 *,
 *::before,
